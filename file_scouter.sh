@@ -27,7 +27,7 @@ echo -e "\nCreating archive file for easy exfil...:\n"
 (zip found_files.zip enum*)
 
 echo -e "\nCleaning up text files...\n"
-(rm -fv *.txt)
+(rm -fv enum*.txt)
 
 
 echo -e "\nAll done! Go get 'em, tiger."
